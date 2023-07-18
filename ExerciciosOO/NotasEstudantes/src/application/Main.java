@@ -17,6 +17,6 @@ public class Main {
         student.secondGrade = sc.nextDouble();
         student.thirdGrade = sc.nextDouble();
 
-        System.out.println(student.toString());
+        System.out.println(student);
     }
 }
