@@ -18,5 +18,7 @@ public class Main {
         student.thirdGrade = sc.nextDouble();
 
         System.out.println(student);
+
+        sc.close();
     }
 }
