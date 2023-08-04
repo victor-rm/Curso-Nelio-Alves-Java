@@ -9,9 +9,9 @@ public class Alturas {
         System.out.print("Quantas pessoas serao digitadas? ");
         int quantidade_de_pessoas = sc.nextInt();
 
-        String[] nomes = new String[quantidade_de_pessoas]; 
-        double[] alturas = new double[quantidade_de_pessoas]; 
-        double[] idades = new double[quantidade_de_pessoas]; 
+        String[] nomes = new String[quantidade_de_pessoas];
+        double[] alturas = new double[quantidade_de_pessoas];
+        double[] idades = new double[quantidade_de_pessoas];
 
         String nome;
 
@@ -20,7 +20,7 @@ public class Alturas {
 
         double altura;
         double soma_alturas = 0;
-        
+
         for (int i = 0; i < quantidade_de_pessoas; i++) {
             System.out.printf("Dados da %da pessoa: %n", i + 1);
             System.out.print("Nome: ");
@@ -40,15 +40,14 @@ public class Alturas {
 
         System.out.println();
         System.out.printf("Altura média: %.2f%n", soma_alturas / quantidade_de_pessoas);
-        System.out.printf("Pessoas com menos de 16 anos: %.1f%%%n", pessoas_com_menos_de_16_anos*100.0 / quantidade_de_pessoas);
+        System.out.printf("Pessoas com menos de 16 anos: %.1f%%%n",
+                pessoas_com_menos_de_16_anos * 100.0 / quantidade_de_pessoas);
 
         for (int i = 0; i < quantidade_de_pessoas; i++) {
-            if(idades[i] < 16) {
+            if (idades[i] < 16) {
                 System.out.println(nomes[i]);
             }
         }
-        
 
-            
     }
 }
