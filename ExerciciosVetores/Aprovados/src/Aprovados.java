@@ -14,15 +14,16 @@ public class Aprovados {
 
         for (int i = 0; i < quantidade_alunos; i++) {
             System.out.printf("Digite nome, primeira e segunda nota do %do aluno: %n", i+1);
+            sc.nextLine();
             nomes[i] = sc.nextLine();
             double nota1 = sc.nextDouble();
             double nota2 = sc.nextDouble();
-            nota_media[i] = nota1 + nota2 / 2.0;
+            nota_media[i] = ((nota1 + nota2) / 2.0);
         }
 
         System.out.println("Alunos aprovados:");
         for (int i = 0; i < quantidade_alunos; i++) {
-            if (nota_media[i] > 6.0) {
+            if (nota_media[i] >= 6.0) {
                 System.out.println(nomes[i]);
             }
         }
