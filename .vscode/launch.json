@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DadosPessoas",
+            "request": "launch",
+            "mainClass": "DadosPessoas",
+            "projectName": "Curso-Nelio-Alves_876672bc"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"

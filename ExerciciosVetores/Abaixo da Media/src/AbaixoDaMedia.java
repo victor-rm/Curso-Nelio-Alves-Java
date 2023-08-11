@@ -21,15 +21,13 @@ public class AbaixoDaMedia {
         media_dos_vetores /= quantidade_elementos;
         System.out.printf("MEDIA DO VETOR = %.3f%n", media_dos_vetores);
 
-        
-        for (int i = 0; i< quantidade_elementos; i++) {
+        for (int i = 0; i < quantidade_elementos; i++) {
             if (vetor[i] < media_dos_vetores) {
                 System.out.println(vetor[i]);
-            } 
+            }
         }
 
         System.out.println();
-
 
         sc.close();
     }

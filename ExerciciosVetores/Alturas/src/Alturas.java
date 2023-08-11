@@ -48,6 +48,7 @@ public class Alturas {
                 System.out.println(nomes[i]);
             }
         }
+        sc.close();
 
     }
 }

@@ -13,7 +13,7 @@ public class Aprovados {
         String[] nomes = new String[quantidade_alunos];
 
         for (int i = 0; i < quantidade_alunos; i++) {
-            System.out.printf("Digite nome, primeira e segunda nota do %do aluno: %n", i+1);
+            System.out.printf("Digite nome, primeira e segunda nota do %do aluno: %n", i + 1);
             sc.nextLine();
             nomes[i] = sc.nextLine();
             double nota1 = sc.nextDouble();
@@ -27,6 +27,6 @@ public class Aprovados {
                 System.out.println(nomes[i]);
             }
         }
-        
+        sc.close();
     }
 }

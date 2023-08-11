@@ -10,14 +10,14 @@ public class Main {
         int quantidade_numeros = sc.nextInt();
         int[] numeros = new int[quantidade_numeros];
         sc.nextLine();
-        for (int i = 0; i < quantidade_numeros; i++){
+        for (int i = 0; i < quantidade_numeros; i++) {
             numeros[i] = sc.nextInt();
         }
 
         System.out.println("NUMEROS NEGATIVOS");
 
         for (int j = 0; j < quantidade_numeros; j++) {
-            if (numeros[j] < 0){
+            if (numeros[j] < 0) {
                 System.out.printf("%d\n", numeros[j]);
             }
         }

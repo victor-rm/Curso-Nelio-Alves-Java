@@ -19,7 +19,7 @@ public class MediaPares {
             if (entrada % 2 == 0) {
                 pares[i] = entrada;
                 media_pares += entrada;
-                quant_pares ++;
+                quant_pares++;
             }
         }
         media_pares /= quant_pares;
